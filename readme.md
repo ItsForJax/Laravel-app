@@ -1,3 +1,10 @@
+To create a new Laravel project use the command: 
+```sh
+composer create-project laravel/laravel example-app
+```
+*Note: Make sure that you have both [php](https://www.php.net/downloads.php) and [composer](https://getcomposer.org/download/) installed*
+---
+
 File structure
 
 1. app (Folder) - Most of the app logic lives.
