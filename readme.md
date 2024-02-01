@@ -29,6 +29,19 @@ File structure
 
 ---
 
+MVC - Model View Controller a design pattern that follows the pattern where a user interact with the controller, then the controller send data to the model to manipulate, and the model updates the view to which the user can see it visually.
+
+To start a laravel server:
+```sh
+php artisan serve
+```
+To create a controller with command:
+```sh
+php artisan make:controller NameOfController
+```
+
+---
+
 *Note: This directory structure follows Laravel conventions and is designed to provide a clear and organized layout for different aspects of a Laravel application.*
 
 [Laravel Directory Structure](https://laravel.com/docs/10.x/structure) - Full directory structure documentation
