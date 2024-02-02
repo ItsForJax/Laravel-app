@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,17 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Home route [GET]
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[DashboardController::class,'index']);
 
-// feed page
-Route::get('/feed', function () {
-    return view('feed');
-});
-
-// profile page
-Route::get('/profile', function () {
-    return view('users.profile');
-});
-
+// Profile route
+Route::get('/profile',[ProfileController::class,'index']);
