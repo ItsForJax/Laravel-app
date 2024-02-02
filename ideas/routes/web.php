@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Home route [GET]
 Route::get('/', function () {
     return view('welcome');
 });
+
+// feed page
+Route::get('/feed', function () {
+    return view('feed');
+});
+
+// profile page
+Route::get('/profile', function () {
+    return view('users.profile');
+});
+
