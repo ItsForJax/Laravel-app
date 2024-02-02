@@ -1,3 +1,11 @@
+To create a new Laravel project use the command: 
+```sh
+composer create-project laravel/laravel example-app
+```
+*Note: Make sure that you have both [php](https://www.php.net/downloads.php) and [composer](https://getcomposer.org/download/) installed*
+
+---
+
 File structure
 
 1. app (Folder) - Most of the app logic lives.
@@ -26,6 +34,19 @@ File structure
 9. vendor (Folder) - Composer managed folder for dependencies
 
 10. .env (File) - Holds various default variables for the app
+
+---
+
+MVC - Model View Controller a design pattern that follows the pattern where a user interact with the controller, then the controller send data to the model to manipulate, and the model updates the view to which the user can see it visually.
+
+To start a laravel server:
+```sh
+php artisan serve
+```
+To create a controller with command:
+```sh
+php artisan make:controller NameOfController
+```
 
 ---
 
