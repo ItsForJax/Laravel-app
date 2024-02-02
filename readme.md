@@ -27,4 +27,8 @@ File structure
 
 10. .env (File) - Holds various default variables for the app
 
+---
+
+*Note: This directory structure follows Laravel conventions and is designed to provide a clear and organized layout for different aspects of a Laravel application.*
+
 [Laravel Directory Structure](https://laravel.com/docs/10.x/structure) - Full directory structure documentation
